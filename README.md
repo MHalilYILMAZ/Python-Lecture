@@ -46,3 +46,13 @@ a.append(5)
 print(a) # ['1','2',5]
 
 ```
+## Karşılaştırma Operatörleri
+
+```
+[ == ] İki değer birbirine eşit ise True değilse False                        // 2 == 2 (True) , 2 == 3 (False)
+[ != ] İki değer birbirine eşit ise False değilse True                        // 2 != 2 (False) , 2 != 3 (True)
+[ >  ] Soldaki değer sağdakinden büyük ise True değilse False                 // 2 > 3  (False) , 3 > 2 (True)
+[ <  ] Soldaki değer sağdakinden küçük ise True değilse False                 // 2 < 3  (True) ,  3 < 2 (False)
+[ >= ] Soldaki değer sağdaki değerden büyük ve eşit ise True değil ise False  // 3 >= 2 , 2 >= 2 (True) , 2 >= 3 (False)
+[ <= ] Soldaki değer sağdaki değerden küçük ve eşit ise True değil ise False  // 2 <= 3 , 2 <= 2 (True) , 3 <= 2 (False)
+```
